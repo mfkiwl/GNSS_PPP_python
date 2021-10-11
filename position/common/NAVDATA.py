@@ -140,7 +140,7 @@ class NavData():
             line = [x for x in line if x]
             print(line)
             if i == 1:
-                prn = int(line[0].replace("G", ""))
+                prn = int(line[1].replace("G", ""))
                 year = int(line[1])
                 month = int(line[2])
                 day = int(line[3])
